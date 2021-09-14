@@ -113,7 +113,7 @@
                <version>1.6.1</version>
                 <configuration>
                   <serverId>nexus</serverId>
-                  <nexusUrl>http://localhost:8081/nexus/</nexusUrl>
+                  <nexusUrl>http://localhost:8081/nexus</nexusUrl>
                   <skipStaging>true</skipStaging>
                 </configuration>
              </plugin>
