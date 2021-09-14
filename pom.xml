@@ -27,14 +27,10 @@
   </dependencies>
   <distributionManagement>
      <repository>
-       <id>central</id>
-       <name>plugins-releases</name>
+       <id>hosted</id>
+       <name>hosted</name>
        <url>http://localhost:8081/repository/anand1/</url>
      </repository>
-     <snapshotRepository>
-       <id>nexus-snapshots</id>
-       <url>http://localhost:8081/repository/anand1/</url>
-    </snapshotRepository>
   </distributionManagement>
   <build>
   <pluginManagement>
