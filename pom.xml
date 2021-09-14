@@ -100,7 +100,7 @@
                <groupId>org.sonatype.plugins</groupId>
                <artifactId>nexus-staging-maven-plugin</artifactId>
                <version>1.5.1</version>
-               <executions>
+                <executions>
                   <execution>
                      <id>default-deploy</id>
                      <phase>deploy</phase>
@@ -108,12 +108,12 @@
                         <goal>deploy</goal>
                      </goals>
                   </execution>
-               </executions>
-               <configuration>
+                </executions>
+                <configuration>
                   <serverId>nexus</serverId>
                   <nexusUrl>http://localhost:8081/nexus/</nexusUrl>
                   <skipStaging>true</skipStaging>
-               </configuration>
+                </configuration>
              </plugin>
         </plugins>
     </reporting>
