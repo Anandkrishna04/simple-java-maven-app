@@ -51,7 +51,7 @@
               <groupId>com.mycompany.app</groupId>
               <artifactId>my-app</artifactId>
             
-              <files>target\app-service.jar</files>
+              <files>target\my-app.jar</files>
              
               <types>jar</types>
             </configuration>
