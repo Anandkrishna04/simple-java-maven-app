@@ -39,10 +39,10 @@
         <version>2.8.2</version>
         <executions>
           <execution>
-            <id>deploy-file</id>
+            <id>nexus-release</id>
             <phase>deploy</phase>
             <goals>
-              <goal>deploy-file</goal>
+              <goal>deploy</goal>
             </goals>
             <configuration>
               <repositoryId>nexus-release</repositoryId>
