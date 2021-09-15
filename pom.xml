@@ -25,13 +25,6 @@
      <version>3.0.0-M5</version>
    </dependency>
   </dependencies>
-  <distributionManagement>
-     <repository>
-       <id>hosted</id>
-       <name>hosted</name>
-       <url>http://localhost:8081/repository/anand1/</url>
-     </repository>
-  </distributionManagement>
   <build>
   <pluginManagement>
     <plugins>
@@ -113,16 +106,7 @@
                     <!--<outputDirectory>C:\Users\ab66378\Desktop</outputDirectory>-->
                 <!--</configuration>-->
             </plugin>
-            <plugin>
-               <groupId>org.sonatype.plugins</groupId>
-               <artifactId>nexus-staging-maven-plugin</artifactId>
-               <version>1.6.1</version>
-                <configuration>
-                  <serverId>nexus</serverId>
-                  <nexusUrl>http://localhost:8081/nexus</nexusUrl>
-                  <skipStaging>true</skipStaging>
-                </configuration>
-             </plugin>
+            
              
         </plugins>
     </reporting>
