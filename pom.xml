@@ -47,6 +47,7 @@
             <configuration>
               <repositoryId>nexus-release</repositoryId>
               <file>target\my-app-2.0-RELEASE.jar</file>
+              <version>2.0-RELEASE</version>
               <url>http://localhost:8081/repository/infy_rel/</url>
               <groupId>com.mycompany.app</groupId>
               <artifactId>my-app</artifactId>
