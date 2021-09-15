@@ -44,6 +44,17 @@
             <goals>
               <goal>deploy-file</goal>
             </goals>
+            <configuration>
+              <repositoryId>nexus-release</repositoryId>
+              <file>target\my-app-2.0-RELEASE.jar</file>
+              <url>http://localhost:8081/repository/infy_rel/</url>
+              <groupId>com.mycompany.app</groupId>
+              <artifactId>my-app</artifactId>
+            
+              <files>target\app-service.jar</files>
+             
+              <types>jar</types>
+            </configuration>
           </execution>
         </executions>
        </plugin>
