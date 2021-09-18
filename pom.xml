@@ -30,6 +30,10 @@
       <id>nexus-release</id>
       <url>http://localhost:8081/repository/infy_rel/</url>
     </repository>
+    <snapshotRepository>
+      <id>nexus-release</id>
+      <url>http://localhost:8081/repository/Infy_snap/</url>
+    </snapshotRepository>
   </distributionManagement>
   <build>
   <pluginManagement>
